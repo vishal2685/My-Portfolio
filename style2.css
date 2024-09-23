@@ -11,20 +11,34 @@
     position: relative;
     box-shadow: 0 10px 10px black;
   }
+  @font-face {
+    font-family: 'Captain'; /* Custom name for the font */
+    src: url('fonts/Captain.otf') format('truetype'); /* Path to the font file */
+  
+  }
+  @font-face {
+    font-family: 'sign'; /* Custom name for the font */
+    src: url('fonts/sign.ttf') format('truetype'); /* Path to the font file */
+  
+  }
   .firstpagecontainer h1{
     font-size: 50px;
-      letter-spacing: 5px;
+      letter-spacing: 10px;
       color: rgb(255, 255, 255);
       /* color: #4574db; */
+      font-family: Captain;
       font-weight: 100;
   }
   .firstpagecontainer h4{
+    /* font-family: 'Bebas Neue'; */
+    font-family: Captain;
     color: #ffffff8e;
     font-size: 22px;
     font-weight: normal;
     letter-spacing: 1px;
   }
   .firstpagecontainer h5{
+    font-family: 'Bebas Neue';
     color: #ffffff8e;
    font-size: 25px;
    font-weight: normal;
