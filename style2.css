@@ -17,9 +17,12 @@
   
   }
   @font-face {
-    font-family: 'sign'; /* Custom name for the font */
-    src: url('fonts/sign.ttf') format('truetype'); /* Path to the font file */
+    font-family: 'Nungo'; /* Custom name for the font */
+    src: url('fonts/Nungo.ttf') format('truetype'); /* Path to the font file */
   
+  }
+  .text{
+    font-family: Nungo;
   }
   .firstpagecontainer h1{
     font-size: 50px;
@@ -31,13 +34,14 @@
   }
   .firstpagecontainer h4{
     /* font-family: 'Bebas Neue'; */
-/*     font-family: Captain; */
+    font-family: Captain;
     color: #ffffff8e;
     font-size: 22px;
     font-weight: normal;
     letter-spacing: 1px;
   }
   .firstpagecontainer h5{
+    font-family: 'Bebas Neue';
     color: #ffffff8e;
    font-size: 25px;
    font-weight: normal;
